@@ -6,13 +6,14 @@
 <body>
 
     <script src="index.js"></script>
+    <script src="manage.js"></script>
 
     <header>
         <h1>OmniConvert</h1>
         <p>A conversion game! Use the following conversions to get your number to equal the goal.</p>
     </header>
-    <input type="text" id="to_convert" placeholder="Enter a number or string">
-    <div id="output"></div>
+    <input type="text" id="to_convert" value=1 placeholder="Enter a number or string">
+    <button onclick="reset()">Reset</button>
 
     <h1>Challenges</h1>
     <p>Level 1: start at 1, end at 36 (2 steps)</p>
