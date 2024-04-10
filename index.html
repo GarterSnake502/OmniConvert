@@ -1,0 +1,43 @@
+<head>
+    <title>OmniConvert</title>
+</head>
+
+
+<body>
+
+    <script src="index.js"></script>
+
+    <header>
+        <h1>OmniConvert</h1>
+        <p>A conversion game! Use the following conversions to get your number to equal the goal.</p>
+    </header>
+    <input type="text" id="to_convert" placeholder="Enter a number or string">
+    <div id="output"></div>
+
+    <h1>Challenges</h1>
+    <p>Level 1: start at 1, end at 36</p>
+
+    <h1>Distances</h1>
+
+    <h2>Metric Conversions</h2>
+    <button onclick="miles_to_kilometers()">Miles to Kilometers (numb / 0.6)</button><br>
+    <button onclick="kilometers_to_miles()">Kilometers to Miles (numb * 0.6)</button><br><br>
+    <button onclick="meters_to_feet()">Meters to Feet (numb * 3.3)</button><br>
+    <button onclick="feet_to_meters()">Feet to Meters (numb / 3.3)</button><br><br>
+    <button onclick="centimeters_to_inches()">Centimeters to Inches (numb * 0.4)</button><br>
+    <button onclick="inches_to_centimeters()">Inches to Centimeters (numb / 0.4)</button><br><br>
+
+
+    <h1>Time</h1>
+
+    <button onclick="seconds_to_minutes()">Seconds to Minutes (numb / 60)</button><br>
+    <button onclick="minutes_to_seconds()">Minutes to Seconds (numb * 60)</button><br><br>
+    <button onclick="minutes_to_hours()">Minutes to Hours (numb / 60)</button><br>
+    <button onclick="hours_to_minutes()">Hours to Minutes (numb * 60)</button><br><br>
+    <button onclick="hours_to_days()">Hours to Days (numb / 24)</button><br>
+    <button onclick="days_to_hours()">Days to Hours (numb * 24)</button><br><br>
+    <button onclick="days_to_weeks()">Days to Weeks (numb / 7)</button><br>
+    <button onclick="weeks_to_days()">Weeks to Days (numb * 7)</button><br><br>
+    <button onclick="weeks_to_years()">Weeks to Years (numb / 52)</button><br>
+    <button onclick="years_to_weeks()">Years to Weeks (numb * 52)</button><br><br>
+</body>
